@@ -23,28 +23,29 @@
 "margin-right": 8,
 
 "modules-left": [
-	"cpu", 
-	"temperature", 
+	"power-profiles-daemon",
+  "cpu",
+	"temperature",
 	"memory",
-	"disk", 
+	"disk"
 	],
-  
+
 "modules-center": [
 	"idle_inhibitor",
-	"clock",  
-	"custom/light_dark",
-	], 
+	"clock",
+	"custom/light_dark"
+	],
 
 "modules-right": [
-	"custom/weather",	  
-	"battery", 
+	"custom/weather",
+	"battery",
 	"backlight",
 	"bluetooth",
 	"network",
 	"custom/updater",
 	"custom/cycle_wall",
-	"custom/lock", 
-	],
+	"custom/lock"
+	]
 },
 
 {
@@ -53,7 +54,7 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules",
+  "$HOME/.config/waybar/UserModules"
   ],
 "layer": "top",
 //"mode": "dock",

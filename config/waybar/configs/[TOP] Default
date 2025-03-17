@@ -7,7 +7,7 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules",
+  "$HOME/.config/waybar/UserModules"
   ],
 "layer": "top",
 //"mode": "dock",
@@ -27,7 +27,7 @@
 	"custom/separator#blank",
 	"custom/playerctl",
 	"custom/separator#blank_2",
-	"hyprland/window",
+	"hyprland/window"
 	],
 
 "modules-center": [
@@ -40,8 +40,8 @@
 	"custom/separator#dot-line",
 	"custom/weather",
 	"custom/separator#dot-line",
-	"idle_inhibitor",	
-	"custom/hint",	
+	"idle_inhibitor",
+	"custom/hint"
 	],
 
 "modules-right": [
@@ -49,9 +49,9 @@
 	"network#speed",
 	"custom/separator#dot-line",
 	"group/mobo_drawer",
-	"custom/separator#line",  
+	"custom/separator#line",
 	"group/audio",
-	"custom/separator#dot-line", 
-	"group/status",
-	],
+	"custom/separator#dot-line",
+	"group/status"
+	]
 }
